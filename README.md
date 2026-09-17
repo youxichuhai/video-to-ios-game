@@ -32,6 +32,22 @@ The [`examples/word-spin/`](examples/word-spin/) folder demonstrates the complet
 
 [Open the generated recording](examples/word-spin/generated-word-spin.mp4)
 
+### Level comparison snapshots
+
+Each image shows the original recording on the left and the generated iOS game on the right.
+
+#### Level 10 — STAR
+
+![Level 10 comparison](examples/word-spin/level-10-comparison.jpg)
+
+#### Level 11 — SNEAKER
+
+![Level 11 comparison](examples/word-spin/level-11-comparison.jpg)
+
+#### Level 12 — APPLE
+
+![Level 12 comparison](examples/word-spin/level-12-comparison.jpg)
+
 ## Local use
 
 Copy the `video-to-ios-game` directory into the Codex skills directory, or reference this directory explicitly from a local Codex setup. The target project should provide an Xcode project and a gameplay video. The workflow uses Xcode command-line tools and, when available, `ffprobe`/`ffmpeg` for media inspection.

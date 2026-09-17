@@ -71,6 +71,22 @@ AdMob 不参与视频拆解和核心游戏开发，只有在游戏已经完成�
 
 [打开生成录屏](examples/word-spin/generated-word-spin.mp4)
 
+### 三个关卡对比图
+
+每张图左侧是原版录屏，右侧是生成的 iOS 游戏。
+
+#### Level 10 — STAR
+
+![Level 10 对比图](examples/word-spin/level-10-comparison.jpg)
+
+#### Level 11 — SNEAKER
+
+![Level 11 对比图](examples/word-spin/level-11-comparison.jpg)
+
+#### Level 12 — APPLE
+
+![Level 12 对比图](examples/word-spin/level-12-comparison.jpg)
+
 ## 目录结构
 
 ```text
@@ -82,7 +98,10 @@ video-to-ios-game/
 │   └── word-spin/
 │       ├── README.md
 │       ├── original-wordspin.mp4
-│       └── generated-word-spin.mp4
+│       ├── generated-word-spin.mp4
+│       ├── level-10-comparison.jpg
+│       ├── level-11-comparison.jpg
+│       └── level-12-comparison.jpg
 ├── agents/
 │   └── openai.yaml
 └── references/
