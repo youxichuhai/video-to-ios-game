@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video to iOS Game"
+  short_description: "Turn gameplay video into a tested SwiftUI game"
+  default_prompt: "Use $video-to-ios-game to analyze a gameplay video with at least three levels, write one requirements spec for confirmation, then implement and verify a configuration-driven SwiftUI iOS game in the existing Xcode project."
