@@ -1,5 +1,7 @@
 # video-to-ios-game
 
+English | [简体中文](README.zh-CN.md)
+
 A Codex Skill for turning a gameplay recording into a configuration-driven SwiftUI iOS game.
 
 The workflow is intentionally staged:
