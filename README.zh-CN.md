@@ -57,6 +57,20 @@ AdMob 不参与视频拆解和核心游戏开发，只有在游戏已经完成�
 
 广告不可用时，游戏仍应正常运行。Debug 使用 Google 测试广告 ID，Release 使用开发者自行配置的正式广告 ID。广告 SDK、隐私同意、ATT、Privacy Manifest 和第三方声明请参考 [`references/admob-postprocess.md`](references/admob-postprocess.md)。
 
+## Example：原版视频到生成结果
+
+[`examples/word-spin/`](examples/word-spin/) 展示了完整流程：以原版游戏录屏作为输入，再以新生成的 iOS Simulator 录屏作为输出。
+
+### 原版输入
+
+[观看 `wordspin.mp4`](examples/word-spin/original-wordspin.mp4)
+
+### 生成的新版本
+
+<video src="https://raw.githubusercontent.com/youxichuhai/video-to-ios-game/main/examples/word-spin/generated-word-spin.mp4" controls width="300"></video>
+
+[打开生成录屏](examples/word-spin/generated-word-spin.mp4)
+
 ## 目录结构
 
 ```text
@@ -64,6 +78,11 @@ video-to-ios-game/
 ├── SKILL.md
 ├── README.md
 ├── README.zh-CN.md
+├── examples/
+│   └── word-spin/
+│       ├── README.md
+│       ├── original-wordspin.mp4
+│       └── generated-word-spin.mp4
 ├── agents/
 │   └── openai.yaml
 └── references/

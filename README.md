@@ -18,6 +18,20 @@ The level schema and templates are in `references/`. The Skill does not contain 
 
 AdMob is intentionally a post-process. It uses Debug test IDs, owner-supplied Release configuration, graceful no-ad fallbacks, and reward idempotency; see `references/admob-postprocess.md`.
 
+## Example
+
+The [`examples/word-spin/`](examples/word-spin/) folder demonstrates the complete flow with the original gameplay recording as input and a new iOS Simulator recording as output.
+
+### Original input
+
+[Watch `wordspin.mp4`](examples/word-spin/original-wordspin.mp4)
+
+### Generated iOS game
+
+<video src="https://raw.githubusercontent.com/youxichuhai/video-to-ios-game/main/examples/word-spin/generated-word-spin.mp4" controls width="300"></video>
+
+[Open the generated recording](examples/word-spin/generated-word-spin.mp4)
+
 ## Local use
 
 Copy the `video-to-ios-game` directory into the Codex skills directory, or reference this directory explicitly from a local Codex setup. The target project should provide an Xcode project and a gameplay video. The workflow uses Xcode command-line tools and, when available, `ffprobe`/`ffmpeg` for media inspection.
