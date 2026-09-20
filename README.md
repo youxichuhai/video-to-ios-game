@@ -52,4 +52,8 @@ Each image shows the original recording on the left and the generated iOS game o
 
 Copy the `video-to-ios-game` directory into the Codex skills directory, or reference this directory explicitly from a local Codex setup. The target project should provide an Xcode project and a gameplay video. The workflow uses Xcode command-line tools and, when available, `ffprobe`/`ffmpeg` for media inspection.
 
-Before publishing this Skill or the app it helps create, add the repository’s chosen open-source license and verify the rights for every video-derived asset.
+Before publishing this Skill or the app it helps create, verify the rights for every video-derived asset.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
